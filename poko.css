@@ -172,7 +172,7 @@ small {
     text-align: left;
     font-family: var(--family);
     font-weight: 700;
-    font-size: clamp(2rem, 8vw - 2rem, 3rem);
+    font-size: clamp(1.5rem, 8vw - 2rem, 3rem);
 }
 
 .hero_button {
@@ -381,7 +381,7 @@ button:active {
     display: flex;
     /* padding-inline: 20px; */
     margin-top: 15rem;
-    margin-inline: 3rem;
+    margin-inline: 1rem;
     flex-direction: column;
 }
 
@@ -563,7 +563,7 @@ h1.bold-text {
 
 .descrip p {
     font-size: 2.3rem;
-    font-size: clamp(5rem, 8vw - 2rem, 3rem);
+    font-size: clamp(3rem, 8vw - 2rem, 3rem);
 }
 
 .main-text p {
@@ -1250,7 +1250,7 @@ button.buy {
     justify-content: center;
     align-items: center;
     /* background-color: black; */
-    /* margin-top: 3rem; */
+    margin-top: -3rem;
     /* margin-bottom: 2rem; */
 }
 input {
