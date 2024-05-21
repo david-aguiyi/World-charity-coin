@@ -266,10 +266,14 @@ header {
 }
 
 header a {
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     font-size: 1.5rem;
+    /* display: flex; */
     font-size: 700;
+    align-items: center;
     /* color: white; */
+    justify-content: center;
+    flex-direction: column;
 }
 
 a p {
@@ -932,6 +936,11 @@ input::-ms-selection {
 .main-timeline-4 {
     position: relative;
     margin-top: 3rem;
+}
+
+{
+    display: flex;
+    flex-direction: column;
 }
 
 /* The actual timeline (the vertical ruler) */
