@@ -1833,6 +1833,7 @@ img.right-img {
         /* place-content: center; */
         margin: auto;
         margin-top: 4rem;
+        padding-top: 3rem;
         width: 90%;
         justify-content: center;
         flex-wrap: nowrap;
