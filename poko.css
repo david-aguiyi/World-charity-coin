@@ -219,6 +219,30 @@ small {
     padding-inline: 40px;
 }
 
+.pha {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* border: 2px solid wheat; */
+}
+
+.phase {
+    border-radius: 32px 32px 0 0;
+    background: rgb(34, 62, 145);
+    max-width: 200px;
+    margin: 0 auto;
+    margin-bottom: -1px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 0.5rem;
+    font-family: ;
+    font-weight: 700;
+    font-size: 2rem;
+    width: 300px;
+}
+
 .centered-text {
     text-align: center;
     font-size: 8rem;
@@ -728,7 +752,7 @@ img#comm {
 }
 .check ul {
     list-style: none;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     /* width: 40%; */
     /* width: 900px; */
     flex-wrap: wrap;
@@ -740,13 +764,13 @@ img#comm {
     padding: 1em;
     /* flex-direction: column; */
     /* background-color: #5c8a1700; */
-    border: 5px solid #6b83c0;
-    border-radius: 20px;
-    margin-inline: 10px;
-    align-items: center;
+    /* border: 5px solid #6b83c0; */
+    /* border-radius: 20px; */
+    /* margin-inline: 10px; */
+    align-items: baseline;
     text-align: center;
     font-size: clamp(1.5rem, 8vw - 2rem, 0.5rem);
-    margin-bottom: 33px;
+    /* margin-bottom: 33px; */
     justify-content: center;
     /* max-width: 650px; */
 }
@@ -757,7 +781,7 @@ img#comm {
 .check ul li p {
     color: white;
     margin-top: 5px;
-    font-family: snart;
+    font-family: var(--family);
     font-weight: 700;
     word-spacing: 3px;
 }
@@ -795,7 +819,7 @@ img#comm {
 .tax {
     display: flex;
     width: 90%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     height: 600px;
     flex-direction: column;
     justify-content: center;
@@ -803,7 +827,7 @@ img#comm {
     margin-inline: 40px;
     flex-wrap: wrap;
     background-color: rgba(5, 5, 5, 0.2);
-    border: 2px solid #0061ff;
+    /* border: 2px solid #0061ff; */
     border-radius: 50px;
 }
 .token-img {
@@ -1947,6 +1971,10 @@ img.right-img {
         height: 52px;
         font-size: 30px;
         font-weight: 700;
+    }
+
+    #section-1{
+        padding-inline: 30px;
     }
 
     .fg2 {
