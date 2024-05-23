@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 
-.money{
+.money {
     width: 60px;
 }
 
@@ -326,7 +326,7 @@ a p {
 
 button {
     font-weight: 900;
-    background-color: #FFB500;
+    background-color: #ffb500;
     /* color: rgb(39, 26, 26); */
     cursor: pointer;
     color: #000000;
@@ -830,6 +830,21 @@ img#comm {
     /* border: 2px solid #0061ff; */
     border-radius: 50px;
 }
+
+.tax1 {
+    display: flex;
+    width: 90%;
+    margin-top: 30px;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 40px;
+    flex-wrap: wrap;
+    background-color: rgba(5, 5, 5, 0.2);
+    /* border: 2px solid #0061ff; */
+    border-radius: 50px;
+}
 .token-img {
     margin-bottom: 40px;
 }
@@ -962,7 +977,7 @@ input::-ms-selection {
     margin-top: 3rem;
 }
 
-{
+ {
     display: flex;
     flex-direction: column;
 }
@@ -1973,7 +1988,7 @@ img.right-img {
         font-weight: 700;
     }
 
-    #section-1{
+    #section-1 {
         padding-inline: 30px;
     }
 
