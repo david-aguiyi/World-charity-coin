@@ -47,7 +47,9 @@ body {
     background: transparent;
     justify-content: center;
     width: 100%;
-    /* width: 444px; */
+    max-width: 1420px;
+    /* margin: 0 auto; */
+    a: 444px;
     border-radius: 40px;
     transition: 440ms 330ms ease-out;
 }
